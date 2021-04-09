@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/6. ZigZag Conversion" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/7. Reverse Integer" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/700.Search in a Binary Search Tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
