@@ -16,7 +16,7 @@ class Solution {
                 || (chars[i] == '}' && c == '{'))
                     continue;
                 else
-                    return false
+                    return false;
             }
         }
         return stack.empty();
