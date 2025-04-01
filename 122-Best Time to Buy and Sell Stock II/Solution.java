@@ -9,3 +9,13 @@ class Solution {
         return dp[prices.length][0];
     }
 }
+
+class SimpleSolution {
+    public int maxProfit(int[] prices) {
+        int profit = 0;
+        for (int i = 1; i < prices.length; i++) {
+            profit += prices[i] - prices[i-1] > 0 ? prices[i] - prices[i-1] : 0;
+        }
+        return profit;
+    }
+}
